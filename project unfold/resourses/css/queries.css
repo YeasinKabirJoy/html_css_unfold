@@ -1,0 +1,226 @@
+
+/*big tablets to 1200px (widths smaller than 1140px)*/
+@media only screen and (max-width:1200px){
+      .main-nav li{
+        margin:0 10px 0 15px;
+        font-size:95%;
+    }
+    
+    .about-me{padding-left: 30px;}
+    
+    .details-text{ font-size: 95%;}
+     
+    .icon-big{font-size: 40px}
+    
+     .details div{
+        font-size: 90%;
+         margin-bottom: 10px;
+    }
+    
+    
+    .services,
+    .get-in-touch{
+        
+        padding-left: 15px;
+    }
+    .plan-box{
+        margin-left: 15px;
+    }
+    
+    .btn:link,
+    .btn:visited,
+    input[type="submit"]{font-size:90%;}
+    
+    .cv-btn{
+        width: 100%;
+        margin-left:30%;
+    }
+    
+    .blog-btn a{margin-left: 42%}
+    
+    
+    footer{
+        font-size: 95%;
+    }
+}
+
+/*small tablets to big tablets:from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    
+    .hero-text-box{background-color: rgba(100, 145, 168, 0.37)}
+    
+    header{
+        height:90vh;
+    }
+    .row{padding:0 4%}
+    
+    .col{
+      width: 100%;
+      margin: 0 0 4% 0
+    }
+    
+    html{font-size: 18px;}
+    
+    section{padding: 60px 0}
+    
+    .main-photo,
+    .main-nav{ display: none;}
+    
+    .header-logo{
+    margin: 40px 0 10px 20px;
+}
+    
+    .icon-big{font-size: 35px;}
+    .icon-small{font-size: 18px;}
+    
+    .box-text{
+        width: 100%;
+        line-height:160%; 
+    }
+    
+    .long-text{
+        width: 70%;
+        margin-bottom:25px;
+    }
+    
+    .about-me {
+        margin-bottom:5px;
+    }
+    
+    .percentage {
+        margin-right: 110px;
+        font-size: 80%;
+    }
+
+    .details div{
+        width: 40%;
+        margin-right: 40px;
+    }
+    
+    .skill-box{margin: 20px 20px 0 50px}
+    
+    
+    .service-box{
+       width: 70%;
+       margin-left:15%;
+       margin-bottom: 20px;
+       border:1px solid #555;
+    }
+    .service-box:first-child{margin-left:15%}
+    
+    .service-box i{
+        margin-left: 45%;
+    }
+    
+    .plan-box{
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    
+    .information-box{
+        width: 60%;
+        margin-left: 20%;
+        border: 1px solid #555;
+    }
+    
+    .information-box i{
+        margin-left: 46%;
+    }
+    
+    .blog-showcase li{
+        width:60%;
+        margin-left: 20%;
+    }
+    
+    .contact-form{
+        width: 65%;
+        margin-left: 18%;
+    }
+    .footer-nav{
+        width: 60%;
+        margin-left: 23%;
+    }
+    
+    .footer-nav li{
+        padding:10px 30px;
+    }
+    .ion-social-facebook,
+    .ion-social-twitter,
+    .ion-social-pinterest,
+    .ion-social-linkedin{
+        font-size: 40px;
+    }
+    
+     
+}
+/*small phone to small tablets:from 481px to 767px*/
+@media only screen and (max-width:767px){
+   html{font-size: 16px}
+    
+   section{padding: 40px 0}
+    
+   .main-text{padding: 160 20 20 100}
+    
+    .details div{
+       width: 100%;
+       margin-top: 10px;
+    }
+    
+    .cv-btn{
+        width: 60%;
+        margin-left:30%;
+    }
+    
+    .blog-btn a{margin-left: 40%}
+    
+    .footer-nav{
+        width: 60%;
+        margin-left: 25%;
+    }
+    
+    .footer-nav li{
+        padding:5% 5%;
+    }
+    .ion-social-facebook,
+    .ion-social-twitter,
+    .ion-social-pinterest,
+    .ion-social-linkedin{
+        font-size: 25px;
+    }
+    
+    .footer-logo{
+        width: 140px;
+        margin-left: 32%;
+        padding: 40px 0;
+    }
+    
+}
+
+/*small phone from 0 to 480 px*/
+@media only screen and (max-width:480px){
+   html{font-size: 14px}
+    
+   section{padding: 30px 0}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
